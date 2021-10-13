@@ -1,7 +1,12 @@
 body{
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+section.linktree{
+    margin-top: 30px;
 }
 
 section.linktree > div > div a{
@@ -12,6 +17,8 @@ section.linktree > div > div a{
     display: block;
     width: 40%;
     text-align: center;
+    margin: auto;
+    letter-spacing: .1em;
 }
 
 section.linktree{
