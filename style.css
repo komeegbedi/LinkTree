@@ -1,0 +1,38 @@
+body{
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.linktree > div > div a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 1em;
+    display: block;
+    width: 40%;
+    text-align: center;
+}
+
+section.linktree{
+    height: 100vh;
+}
+
+section.linktree > div.row{
+    height: 100%;
+}
+
+/* Media Query*/
+@media only screen and (max-width: 768px) {
+
+    section.linktree > div > div a{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    section.linktree > div > div a{
+        width: 80%;
+    }
+}
